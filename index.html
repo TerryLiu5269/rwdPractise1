@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>RWD gogoro</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0px;
+        }
+
+        nav {
+            width: 95%;
+            margin: 0 auto;
+        }
+
+        i {
+            font-size: 16px;
+        }
+
+        nav a {
+            margin: 0px 8px;
+            color: black;
+            font-size: 14px;
+        }
+
+        .top_banner_img {
+            width: 100%;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            padding: 55px 55px 55px 55px;
+
+        }
+
+        .text>h3 {
+            display: -webkit-box;
+            /* white-space: nowrap; */
+            /* white-space只會顯示單行 */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .text>p {
+            display: -webkit-box;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        .text_a {
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .p_text {
+            color: #ccc;
+        }
+
+        .text_container {
+            background-color: rgb(66, 66, 66);
+        }
+
+
+        .category-links>a {
+            color: black;
+            margin: 0px 23px;
+            font-weight: 500;
+            line-height: 40px;
+        }
+
+        .card_items>p {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .card_items>h3 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .card_items>.card {
+            margin: 10px 0px;
+        }
+
+        .all_articles {
+            color: black;
+            margin: 0px 23px;
+            font-weight: 700;
+            line-height: 40px;
+        }
+
+        .footer_icons>i {
+            color: rgb(175, 175, 175);
+            margin: 5px 0px;
+        }
+
+        .footer_icons>img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .footer_icons p {
+            color: rgb(175, 175, 175);
+        }
+
+        .footer_text_area_phone>.border-top {
+            opacity: .4;
+            font-size: small;
+        }
+
+        .copyrights_area_phone {
+            color: azure;
+            font-size: small;
+        }
+
+        .copyrights_area_index{
+            opacity: .4;
+            color: azure;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container-fluid my-3">
+            <div class="row justify-content-between align-items-center">
+                <div class="phone_menu_left d-block d-lg-none">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="gogoro_LOGO">
+                    <img src="/img/LOGO.svg" alt="">
+                </div>
+
+                <div class="phone_member_right">
+                    <i class="far fa-user-circle d-block d-lg-none"></i>
+                </div>
+
+                <div class="about_container d-none d-lg-block mr-auto ml-5">
+                    <a href="#">Smart Energy</a>
+                    <a href="#">Smart Vehicles</a>
+                    <a href="#">News</a>
+                    <a href="#">About Us</a>
+                </div>
+                <div class="other_center d-none d-lg-block">
+                    <a href="#">Invertors</a>
+                    <a href="#">Media Center</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- -----------------------nav end-------------------------- -->
+
+    <div class="banner d-flex row m-0">
+        <div class="img_container col-12 col-lg-7 p-0">
+            <img class="top_banner_img" src="/img/top_banner-1.jpg" alt="">
+        </div>
+        <div class="text_container col-12 col-lg-5 p-0 d-flex">
+            <div class="text">
+                <p class="p-0 m-0">November 11,2021</p>
+                <h3 class="p-0 m-0">Gogoro Recognized by Frost & Sullivan for Revolutionizing the Electric Two-wheeler
+                    Market With Its
+                    Swappable Battery Approach</h3>
+                <p class="p_text p-0 m-0">Gogoro's leading battery swapping platform, smart vehicle solutions, and
+                    robust
+                    portfolio of vehicles set it apart and make it a highly influential player in the global two-wheeler
+                    market.</p>
+                <a class="text_a p-0 m-0" href="#">READ MORE ></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------banner end-------------------------- -->
+    <!-- -----------------------main start-------------------------- -->
+
+    <div class="bg-white mt-5">
+        <div class="container">
+            <div class="row flex-column mx-3">
+                <h1>News</h1>
+
+                <div class="category-links flex-nowrap my-3">
+                    <a href="#">ALL</a>
+                    <a href="#">COMPANY</a>
+                    <a href="#">PRESS RELEASES</a>
+                    <a href="#">PARTNERS</a>
+                    <a href="#">GOGORO NETWORK</a>
+                    <a href="#">SMART VEHICLES</a>
+                    <a href="#">VERVICES</a>
+                </div>
+                <!-- -----------------------card-1 start-------------------------- -->
+                <div class="card_items row">
+                    <div class="px-3 col-12 col-lg-6 p-0" style="">
+                        <img src="/img/card_img-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>November 16,2021</p>
+                            <h3 class="card-title">Gates and Gogoro Announce Exclusive Strategic Partnership to
+                                Accelerate Sustainable Urban Transportation</h3>
+                            <p class="card-text">The companies have co-developed a two-wheel electric drivetrain called
+                                FLO DRIVE, based on the Gates Carbon Drive, that will only be available to Powered By
+                                Gogoro Network vehicle makers.</p>
+                        </div>
+                    </div>
+                    <!-- -----------------------card-1 end-------------------------- -->
+                    <div class="px-3 col-12 col-lg-6 p-0" style="">
+                        <img src="/img/card_img-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>November 16,2021</p>
+                            <h3 class="card-title">Gates and Gogoro Announce Exclusive Strategic Partnership to
+                                Accelerate Sustainable Urban Transportation</h3>
+                            <p class="card-text">The companies have co-developed a two-wheel electric drivetrain called
+                                FLO DRIVE, based on the Gates Carbon Drive, that will only be available to Powered By
+                                Gogoro Network vehicle makers.</p>
+                        </div>
+                    </div>
+                    <!-- -----------------------card-2 end-------------------------- -->
+                    <div class="px-3 col-12 col-lg-6 col-xl-4 p-0" style="">
+                        <img src="/img/card_img-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>October 01,2021</p>
+                            <h3 class="card-title">Gates and Gogoro Announce Exclusive Strategic Partnership to
+                                Accelerate Sustainable Urban Transportation</h3>
+                            <p class="card-text">The companies have co-developed a two-wheel electric drivetrain called
+                                FLO DRIVE, based on the Gates Carbon Drive, that will only be available to Powered By
+                                Gogoro Network vehicle makers.</p>
+                        </div>
+                    </div>
+                    <!-- -----------------------card-3 end-------------------------- -->
+                    <div class="px-3 col-12 col-lg-6 col-xl-4 p-0" style="">
+                        <img src="/img/card_img-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>October 01,2021</p>
+                            <h3 class="card-title">Gates and Gogoro Announce Exclusive Strategic Partnership to
+                                Accelerate Sustainable Urban Transportation</h3>
+                            <p class="card-text">The companies have co-developed a two-wheel electric drivetrain called
+                                FLO DRIVE, based on the Gates Carbon Drive, that will only be available to Powered By
+                                Gogoro Network vehicle makers.</p>
+                        </div>
+                    </div>
+                    <!-- -----------------------card-4 end-------------------------- -->
+                    <div class="px-3 col-12 col-lg-6 col-xl-4 p-0" style="">
+                        <img src="/img/card_img-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>October 06,2021</p>
+                            <h3 class="card-title">Gates and Gogoro Announce Exclusive Strategic Partnership to
+                                Accelerate Sustainable Urban Transportation</h3>
+                            <p class="card-text">The companies have co-developed a two-wheel electric drivetrain called
+                                FLO DRIVE, based on the Gates Carbon Drive, that will only be available to Powered By
+                                Gogoro Network vehicle makers.</p>
+                        </div>
+                    </div>
+                    <!-- -----------------------card-5 end-------------------------- -->
+                    <div class="px-3 col-12 col-lg-6 col-xl-4 p-0" style="">
+                        <img src="/img/card_img-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>October 11,2021</p>
+                            <h3 class="card-title">Gates and Gogoro Announce Exclusive Strategic Partnership to
+                                Accelerate Sustainable Urban Transportation</h3>
+                            <p class="card-text">The companies have co-developed a two-wheel electric drivetrain called
+                                FLO DRIVE, based on the Gates Carbon Drive, that will only be available to Powered By
+                                Gogoro Network vehicle makers.</p>
+                        </div>
+                    </div>
+                    <!-- -----------------------card-6 end-------------------------- -->
+                    <div class="px-3 col-12 col-lg-6 col-xl-4 p-0" style="">
+                        <img src="/img/card_img-7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>November 26,2021</p>
+                            <h3 class="card-title">Gates and Gogoro Announce Exclusive Strategic Partnership to
+                                Accelerate Sustainable Urban Transportation</h3>
+                            <p class="card-text">The companies have co-developed a two-wheel electric drivetrain called
+                                FLO DRIVE, based on the Gates Carbon Drive, that will only be available to Powered By
+                                Gogoro Network vehicle makers.</p>
+                        </div>
+                    </div>
+                    <!-- -----------------------card-7 end-------------------------- -->
+                    <div class="px-3 col-12 col-lg-6 col-xl-4 p-0" style="">
+                        <img src="/img/card_img-8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p>November 28,2021</p>
+                            <h3 class="card-title">Gates and Gogoro Announce Exclusive Strategic Partnership to
+                                Accelerate Sustainable Urban Transportation</h3>
+                            <p class="card-text">The companies have co-developed a two-wheel electric drivetrain called
+                                FLO DRIVE, based on the Gates Carbon Drive, that will only be available to Powered By
+                                Gogoro Network vehicle makers.</p>
+                        </div>
+                    </div>
+                    <!-- -----------------------card-8 end-------------------------- -->
+
+                    <a class="all_articles mx-auto my-3" href="#">ALL ARTICLES ></a>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------------main end-------------------------- -->
+        <footer class="bg-dark pt-4">
+            <div class="container">
+                <div class="row flex-column flex-lg-row">
+                    <div class="footer_logo_icons col-8 col-lg-4">
+                        <img src="/img/LOGO_white.svg" alt="">
+
+                        <div class="social_grop pt-3 d-flex flex-row">
+                            <div class="footer_icons mt-3 d-flex flex-wrap ">
+                                <div class="fb_grop d-flex align-items-center p-0 my-1 col-6 col-lg-12">
+                                    <img src="/img/fb.svg" alt="">
+                                    <p class="m-0 mx-2 py-1">Facebook</p>
+                                </div>
+                                <!-- <i class="fab fa-facebook-square"><span></span> Facebook </i> -->
+                                <div class="fb_grop d-flex align-items-center p-0 my-1 col-6 col-lg-12">
+                                    <img src="/img/twitter.svg" alt="">
+                                    <p class="m-0 mx-2 py-1">Twitter</p>
+                                </div>
+                                <!-- <i class="fab fa-twitter"><span></span> Twitter</i> -->
+                                <div class="linkedin_grop d-flex align-items-center p-0 my-1 col-6 col-lg-12">
+                                    <img src="/img/link.svg" alt="">
+                                    <p class="m-0 mx-2 py-1">Linkedin</p>
+                                </div>
+                                <!-- <i class="fab fa-linkedin"><span></span> Linkedin</i> -->
+                                <div class="linkedin_grop d-flex align-items-center p-0 my-1 col-6 col-lg-12">
+                                    <img src="/img/yt.svg" alt="">
+                                    <p class="m-0 mx-2 py-1">Youtube</p>
+                                </div>
+                                <!-- <i class="fab fa-youtube"><span></span> Youtube</i> -->
+                                <div class="linkedin_grop d-flex align-items-center p-0 my-1 col-6 col-lg-12">
+                                    <img src="/img/insta.svg" alt="">
+                                    <p class="m-0 mx-2 py-1">Instagram</p>
+                                </div>
+                                <!-- <i class="fab fa-instagram"><span></span> Instagram</i> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer_text_area_index d-none d-lg-flex row mt-4">
+                        <div class="smart_energy_grop mx-4">
+                            <p class="text-white-50">Smart Energy</p>
+                            <ul class="list-unstyled text-white">
+                                <li>Swap & Go</li>
+                            </ul>
+                        </div>
+                        <div class="smart_vehicles_grop mx-4">
+                            <p class="text-white-50">Smart Vehicles</p>
+                            <ul class="list-unstyled text-white">
+                                <li>S Perfirmance</li>
+                                <li>Gogoro 1 Series</li>
+                                <li>Gogoro 2 Series</li>
+                                <li>Gogoro 3 Series</li>
+                                <li>Gogoro VIVA XL</li>
+                                <li>Gogoro VIVA MIX</li>
+                                <li>Gogoro VIVA </li>
+                                <li>iQ System®</li>
+                                <li>Compare Specs</li>
+                            </ul>
+                        </div>
+                        <div class="smart_aboutus_grop mx-4">
+                            <p class="text-white-50">About Us</p>
+                            <ul class="list-unstyled text-white">
+                                <li>Company</li>
+                                <li>News</li>
+                                <li>Media Center</li>
+                        </div>
+                        <div class="smart_getsupport_grop mx-4">
+                            <p class="text-white-50">Get Suppert</p>
+                            <ul class="list-unstyled text-white">
+                                <li>Tech Support</li>
+                                <li>Mail US</li>
+                                <li>FAQ</li>
+                        </div>
+                    </div>
+
+                    <div class="footer_text_area_phone d-flex d-lg-none flex-column col-12 pt-4">
+                        <div
+                            class="Smart_Energy_grop_phone d-flex align-items-center border-top pr-1 pt-2 pb-2 justify-content-between">
+                            <p class="m-0 text-white-50">Smart Energy</p>
+                            <i class="fas fa-plus text-white-50"></i>
+                        </div>
+                        <div class="Smart_Vehicles_grop_phone d-flex border-top pt-2 pr-1 pb-2 justify-content-between">
+                            <p class="m-0 text-white-50">Smart Vehicles</p>
+                            <i class="fas fa-plus text-white-50"></i>
+                        </div>
+                        <div class="Aboutus_grop_phone d-flex border-top pt-2 pr-1 pb-2 justify-content-between">
+                            <p class="m-0 text-white-50">About Us</p>
+                            <i class="fas fa-plus text-white-50"></i>
+                        </div>
+                        <div
+                            class="Get_Support_grop_phone d-flex border-top border-bottom pt-2 pb-2 pr-1 justify-content-between">
+                            <p class="m-0 text-white-50">Get Support</p>
+                            <i class="fas fa-plus text-white-50"></i>
+                        </div>
+                    </div>
+
+                    <div class="copyrights_area_phone d-flex d-lg-none flex-column col-12 align-items-center">
+                        <div class="region_grop d-flex align-items-center m-4">
+                            <p class="m-0">Region</p>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <p class="mt-2 text-white-50
+
+                    ">Copyright © 2014-2021 Gogoro Inc. All rights reserved.</p>
+                        <div class="privacy_grop d-flex">
+                            <p class="pr-3 pl-3 text-white-50
+
+                        ">Privacy Policy</p>
+                            <p class="pr-3 pl-3 text-white-50
+
+                        ">Terms of Use</p>
+                        </div>
+                    </div>
+
+                    <div class="copyrights_area_index d-none d-lg-flex align-item-start col-12 mt-3 border-top pt-3">
+                        <p class="text-white-50">Copyright © 2014-2021 Gogoro Inc. All rights reserved.</p>
+                        <div class="privacy_grop d-flex flex-grow-1">
+                            <p class="pl-5 pr-2 text-white-50">Privacy Policy</p>
+                            <p class="pl-2 text-white-50">Terms of Use</p>
+                        </div>
+                        <div class="region_grop d-flex align-items-center">
+                            <p class="text-white">Region</p>
+                            <i class="fas fa-angle-down mb-3 pl-1"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- --------------------------以下沒事不要動--------------------------- -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
